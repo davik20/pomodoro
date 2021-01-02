@@ -1,0 +1,69 @@
+
+
+:root {
+    --color-primary: rgb(228, 122, 122);
+    --color-secondary: rgb(113, 242, 248);
+    --color-tetiary: rgb(217, 130, 247);
+    --color-background: rgb(30, 33, 64);
+   --background-dark: rgb(21,25, 50);
+   --background-light: rgb(41,45, 82);
+   --diameter : 35rem;
+   
+     
+
+}
+
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: rgb(255, 0, 0) */
+   
+    
+}
+
+html {
+    font-size: 9px !important;
+    
+    /*  */
+    /* height: 12000px; */
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+ body{
+   background-color: var(--color-background) !important;
+   font-family: 'Lato', sans-serif !important;
+   /* font-family: 'Redressed', cursive !important;
+   font-family: 'Comfortaa', cursive !important; */
+   
+
+   width: 100vw;
+   height: 100vh;
+   /* display: flex;
+   justify-content: center;
+   align-content: center; */
+}
+/* f */
+
+/* @media  (max-width: 455px){
+
+    html {
+        font-size: 8px;
+       
+    }
+
+}
+@media  (max-width: 399px){
+
+    html {
+        font-size: 7px;
+       
+    }
+
+} */
+
+
